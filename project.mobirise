@@ -31,7 +31,7 @@
       ]
     },
     "versionFirst": "4.3.4",
-    "uniqCompNum": 23,
+    "uniqCompNum": 24,
     "versionPublish": "4.3.4",
     "favicon": "@PROJECT_PATH@/assets/images/logofinal-128x73-1.png",
     "noImageResize": "",
@@ -328,7 +328,7 @@
             "fourthType": "",
             "paddingTop": "1",
             "paddingBottom": "1",
-            "showButtons": true,
+            "showButtons": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -387,42 +387,22 @@
           "_anchor": "pricing-table2-l"
         },
         {
-          "_inherit": "msg-box8",
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#000"
-            },
-            ".btn": {
-              "font-size": "18px"
-            }
-          },
           "_params": {
-            "showTitle": false,
-            "showText": false,
-            "showButton": true,
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
           },
-          "title": "Your feedback is important for us",
-          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Place your order</a> <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">Share your feedback</a>",
           "_tags": [
             "Theme"
           ],
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Please share your feedback here</a>",
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-6"
+          "_name": "buttons1",
+          "_anchor": "buttons1-n",
+          "_styles": {
+            ".btn": {
+              "font-size": "18px"
+            }
+          }
         },
         {
           "_params": {
